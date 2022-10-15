@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>🐊DIG-Presentation</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <h1>貯めてお得なおこづかい帳</h1>
+    <h2 class="container1">
+      <a href="#" class="btn-square" id="bt1">口座作成</a><br> 
+      <a href="#" class="btn-square" id="bt2">約束事</a><br>
+      <a href="#" class="btn-square" id="bt3">自分の通帳</a><br>
+      <a href="#" class="btn-square" id="bt4">管理者</a><br>
+    </h2>
+    <h3 class="container2" id="passbook" style="display: none;">
+      <table class="table">
+        <tr>
+          <th>記録日</th>
+          <th>名目</th>
+          <th>入金</th>
+          <th>出金</th>
+          <th>預金総額</th>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+      </table>
+
+    </h3>
+    <h4 class="h4box" id="admin" style="display: none;">
+      <div class="h4item">【約束】<br>・帰ってきたら宿題と洗濯物取込みをする。<br>・スプラ3で負けても怒ったり泣いたりしない！<br>【おこづかいの条件】<br>毎月25日に500円/月のおこづかいを支払う。<br>テストで100点を取った回数×100円を支払う。<br>毎月24日時点の預金残高に5%分の金利を支払う。</div>
+    </h4>
+    <h5 class="h5box" style="display: none">
+      <div class="h5item">記録日<br><input class="input" type="date" id="date"></div>
+      <div class="h5item">名目<br><input class="input" list="items" type="text" id="usage"></div>
+        <datalist id="items">
+          <option value="おこづかい">
+          <option value="テスト100点">
+          <option value="友達の誕プレ">
+          <option value="金利支払い">
+          <option value="友達と遊ぶ">
+        </datalist>
+      <div class="h5item">預金額<br><input class="input" list="money" type="number" id="deposit"></div>
+        <datalist id="money">
+          <option value="500">
+          <option value="400">
+          <option value="300">
+          <option value="200">
+          <option value="100">
+        </datalist>
+      <div class="h5item">引出額<br><input class="input" list="money" type="number" id="drawer"></div>
+    </h5>
+    <h6 class=" h6box" style="display: none">
+      <div class=" h6item2" id="bt6">削除する</div>
+      <form class=" h6item1">
+        <label>
+          <input id="deposit" type="radio" name="bank" value="deposit">預金
+        </label>
+        <label>
+          <input id="drawer" type="radio" name="bank" value="drawer">引出
+        </label>
+        <label>
+          <input id="interest" type="radio" name="bank" value="interest">金利
+        </label>
+      </form>
+      <div class=" h6item2" id="bt5">記帳する</div>
+    </h6>
+  </body>
+
+  <footer>
+    <script type="text/javascript" src="script.js"></script>
+  </footer>
+</html>

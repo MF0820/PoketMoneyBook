@@ -1,0 +1,164 @@
+body {
+    background-color: rgb(183, 255, 231);
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+.container2 {
+    /* display: flex; */
+    justify-content: center;
+}
+
+.h4box {
+    /* display: flex; */
+    padding: 10px;
+    justify-content: center;
+}
+
+.h4item {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 800px;
+    text-align: center;
+    background-color: #FFF;
+    height: 200px;
+}
+.h5box {
+    /* display: flex; */
+    margin: 0px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.h5item {
+    font-size: small;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: #FFF;
+    height: 75px;
+}
+
+.h6box {
+    /* display: flex; */
+    margin: 0px;
+    padding: 0px;
+    justify-content: end;
+}
+
+.h6item1 {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    background-color: #FFF;
+    height: 15px;
+}
+
+.h6item2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    /* display: inline; */
+    position: relative;
+    padding: 0.5em 1em;
+    margin: 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    box-shadow: 0 3px 0 #627295;
+    border-radius: 20px;
+}
+.h6item2:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(3px);/*下に動く*/
+    box-shadow: none;/*線を消す*/
+}
+
+h1 {
+    color: rgb(118, 118, 216);
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    /* flex-direction: column; */
+    font-size: small;
+    background-color: #df5f5f;
+}
+
+.btn-square {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    /* display: inline; */
+    position: relative;
+    padding: 0.5em 1em;
+    margin: 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    box-shadow: 0 3px 0 #627295;
+    border-radius: 20px;
+}
+.btn-square:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(3px);/*下に動く*/
+    box-shadow: none;/*線を消す*/
+}
+
+table{
+    text-align: center;
+    border-collapse:collapse;
+    margin-bottom:200px;
+}
+th{
+    font-size: small;
+    background-color: #527fe0;
+    padding:10px;
+    width: 100px;
+    border-top: 1px solid #000; 
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 3px solid #000000;
+}
+td{
+    font-size: small;
+    background-color: #FFF;
+    padding:10px;
+    width: 100px;
+    border-top: 1px solid #000; 
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+
+.input {
+    display: inline-block;
+    width: 10em;
+    max-width: 80%;
+    padding: 0.5em;
+    border: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    background: #ffffff;
+    margin: 0.5em 0;
+}
+
+.textarea {
+    display: inline-block;
+    font-size: small;
+    width: 50em;
+    height: 7em;
+    max-width: 100%;
+    padding: 0.5em;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    background: #ffffff;
+    margin: 0.5em 0;
+}
